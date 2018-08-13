@@ -1,0 +1,2940 @@
+@CHARSET "ISO-8859-1";
+
+body {
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+h4 {
+	font-size: 16px;
+}
+
+h5 {
+	font-size: 14px;
+}
+
+h6 {
+	font-size: 12px;
+}
+
+.f10 {
+	font-size: 10px;
+}
+
+.f11 {
+	font-size: 11px;
+}
+
+.f12 {
+	font-size: 12px;
+}
+
+.f13 {
+	font-size: 13px;
+}
+
+.f14 {
+	font-size: 14px;
+}
+
+.f16 {
+	font-size: 16px;
+}
+
+.f18 {
+	font-size: 18px;
+}
+
+.f20 {
+	font-size: 20px;
+}
+
+.f22 {
+	font-size: 22px;
+}
+
+.f24 {
+	font-size: 24px;
+}
+
+.f26 {
+	font-size: 26px;
+}
+
+.f28 {
+	font-size: 28px;
+}
+
+.f30 {
+	font-size: 30px;
+}
+
+.f32 {
+	font-size: 32px;
+}
+
+.f36 {
+	font-size: 36px;
+}
+
+p {
+}
+
+a {
+	color: #004B91;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #D40000;
+	text-decoration: underline;
+}
+
+input[type="email"],input[type="number"],input[type="password"],input[type="tel"],input[type="text"],input[type="url"],select,textarea {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #C0C0C0;
+	border-radius: 0px;
+	display: inline-block;
+}
+
+select, .pointer {
+    cursor: pointer;
+}
+
+input.error, select.error, textarea.error, span.error {
+	border: 1px solid #DF1F26 !important;
+}
+
+.hidden, .none, .display-none {
+	display: none;
+}
+
+.red, .required, .text-color-red {
+	color: #FF0000 !important;
+}
+
+.text-color-green {
+	color: green !important;
+}
+
+.highlight {
+	background-color: yellow !important;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.font-weight-normal {
+	font-weight: normal !important;
+}
+
+.tease {
+	background-color: #0275d8;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 15px;
+	width: 100%;
+	display: block;
+}
+
+.tease:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: #0269c2;
+}
+
+.security-code {
+	color: red;
+	font-family: Comic Sans MS;
+	font-size: 16px;
+	font-weight: bold;
+	background: url("../images/bg-captcha.png") no-repeat;
+	width: 80px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 6px;
+	text-align: center;
+}
+
+.i-help {
+	background: url("../images/i-help.gif") no-repeat 0 0 transparent;
+	width: 15px;
+	height: 15px;
+	margin-left: 5px;
+	display: inline-block;
+}
+
+.page-container {
+}
+
+.page-content {
+	padding-bottom: 40px;
+}
+
+.page-title {
+	font-size: 24px;
+	line-height: 1.1em;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #d3d3d3;
+}
+
+.item-title {
+	font-size: 24px;
+	margin-top: 0px;
+}
+
+.item-author {
+	font-size: 12px;
+	font-style: italic;
+	padding: 10px 0px 20px;
+}
+
+.item-author a {
+	color: #D40000;
+}
+
+.header {
+	width: 100%;
+}
+
+.header .banner {
+	position: relative;
+	height: 100px;
+}
+
+.header .banner .logo {
+	padding-top: 10px;
+	position: relative;
+}
+
+.header .banner .logo .customer-rating {
+	position: absolute;
+	left: 350px;
+	top: 5px;
+}
+
+.header .banner .logo .customer-rating a {
+	position: relative;
+	display: block;
+}
+
+.header .banner .logo .customer-rating .sa-medal {
+	margin-bottom: 5px;
+}
+
+.header .banner .logo .customer-rating .sa-total {
+	position: absolute;
+	top: 28px;
+	left: 0;
+	width: 83px;
+	text-align: center;
+	font-family: Impact;
+	font-size: 10px;
+	color: #000;
+	display: block;
+}
+
+.header .banner .topcontact {
+	position: absolute;
+	left: 350px;
+	bottom: 35px;
+}
+
+.header .banner .topcontact .phone .label {
+	color: #333333;
+	font-family: 'Oswald';
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.header .banner .topcontact .phone .number {
+	color: #e41e01;
+	font-family: 'Oswald';
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.header .banner .topcontact .phone .number:hover {
+}
+
+.header .banner .search-bar {
+	position: absolute;
+    right: 0px;
+    top: 25px;
+    width: 300px;
+}
+
+.header .banner .toptimezone {
+    position: absolute;
+    right: 0px;
+    top: 70px;
+    text-align: right;
+}
+.header .banner .toptimezone .timezone {
+	color: #666666;
+	font-size: 11px;
+}
+
+.header .top-menu {
+	background-color: #F1F1F1;
+}
+
+.header .top-menu .inner,
+.header .top-menu .container {
+	position: relative;
+}
+
+.header .top-menu .menu-items {
+	float: right;
+	list-style: none;
+	margin: 0;
+}
+
+.header .top-menu .menu-items .menu-item {
+	float: left;
+}
+
+.header .top-menu .menu-items .menu-item:hover {
+	background-color: #FFFFFF;
+}
+
+.header .top-menu .menu-items .menu-item.noaction:hover {
+	background-color: #F1F1F1;
+}
+
+.header .top-menu .menu-items .menu-item .hello {
+	color: #2A2A2A;
+	font-size: 12px;
+	font-weight: bold;
+	border-right: 1px solid #D8D8D8;
+	display: block;
+	padding: 5px 16px;
+}
+
+.header .top-menu .menu-items .menu-item a {
+	color: #2A2A2A;
+	font-size: 12px;
+	font-weight: bold;
+	border-right: 1px solid #D8D8D8;
+    display: block;
+    padding: 5px 16px;
+}
+
+.header .top-menu .menu-items .menu-item a:hover {
+	color: #2A2A2A;
+	text-decoration: none;
+}
+
+.header .top-menu .menu-items .menu-item a .caret {
+}
+
+.header .main-menu {
+	background-color: #5E5652;
+}
+
+.header .main-menu .menu-items {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+	list-style-type: none;
+	display: table;
+	position: relative;
+}
+
+.header .main-menu .menu-items li {
+	display: table-cell;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.header .main-menu .menu-items li.menu-item-div {
+	width: 1px;
+}
+
+.header .main-menu .menu-items li a {
+	background-color: #5E5652;
+	border-radius: 0px 0px 0px 0px;
+	color: #FFFFFF;
+	display: block;
+	font-size: 14px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.header .main-menu .menu-items li a:hover,
+.header .main-menu .menu-items li a.active {
+	background-color: #DE4A4A;
+}
+
+.header .main-menu .menu-items li a.apply:before {
+    background: url("../images/best-sellers-badge.png?r=u") no-repeat scroll left top rgba(0, 0, 0, 0);
+    border: 0 none;
+    content: "";
+    height: 25px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 27px;
+}
+
+.header .main-menu .menu-items li ul.dropdown-menu {
+	background-color: #5e5652;
+	border: none;
+	border-radius: 0px;
+}
+
+.header .main-menu .menu-items li ul.dropdown-menu .second-menu-item {
+	display: block;
+}
+
+.header .main-menu .menu-items li ul.dropdown-menu .second-menu-item a {
+	border-radius: 0px;
+	text-align: left;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.header-sm .navbar-phone {
+	float: right;
+	color: #FFF;
+	font-size: 16px;
+	padding: 15px;
+	line-height: 20px;
+}
+
+.header-sm .navbar-brand {
+	padding-left: 10px;
+	padding-right: 0px;
+}
+
+.header-sm .navbar-sm {
+}
+
+.header-sm .navbar-sm-header {
+	margin: 20px 0px;
+	width: 280px;
+	text-align: center;
+	display: block;
+}
+
+.header-sm .navbar-sm-header .navbar-sm-logo {
+	text-align: center;
+	display: inline-block;
+}
+
+.header-sm .navbar-sm-footer {
+	height: 100px;
+	padding: 15px;
+	font-size: 12px;
+	color: #999999;
+	display: block;
+}
+
+.header-sm .navbar-menu-toggle-right ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.header-sm .navbar-menu-toggle-right ul li {
+	cursor: pointer;
+	border-bottom: 1px solid #484848;
+}
+
+.header-sm .navbar-menu-toggle-right ul li:hover {
+}
+
+.header-sm .navbar-menu-toggle-right ul li a {
+	padding: 10px 15px;
+	width: 100%;
+	color: #FFFFFF;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.header-sm .navbar-menu-toggle-right ul li a:hover {
+	background-color: #AFAFAF;
+}
+
+.header-sm .navbar-menu-toggle {
+	position: relative;
+	height: 100%;
+}
+
+.header-sm .navbar-menu-toggle-right {
+	position: fixed;
+	background-color: #444;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+	color: #fff;
+	bottom: 0px;
+	left: -500px;
+	top: 50px;
+	width: 280px;
+	overflow: hidden;
+	transition: all 0.5s ease 0s;
+}
+
+.header-sm .navbar-menu-toggle-right .navbar-scroller {
+	position: absolute;
+	height: 100%;
+	width: 300px;
+	overflow-y: scroll;
+}
+
+.badge-since {
+	left: -80px;
+	position: absolute;
+	overflow: hidden;
+}
+
+.badge-big {
+    margin-top: -80px;
+    position: relative;
+    width: 74px;
+    z-index: 1;
+    transition-duration: 0.5s;
+}
+.badge-big:hover {
+    margin-top: 0px;
+}
+.badge-big span {
+	background: none repeat scroll 0 0 #de4a4a;
+	color: #fff;
+	display: block;
+	font: 12px/18px "PT Sans",Helvetica,serif;
+	padding: 6px 5px;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+}
+.badge-big img {
+	height: 70px;
+	width: 74px;
+}
+
+.footer {
+}
+
+.footer .needhelp {
+	background-color: #5E5652;
+}
+
+.footer .needhelp .needhelp-heading {
+	background: url("//s3.amazonaws.com/elasticbeanstalk-us-east-1-567054900300/vietnam-evisa.org/template/images/share-text-bg.gif.png?r=u") no-repeat scroll right top rgba(0, 0, 0, 0);
+	color: #FFFFFF;
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+	height: 44px;
+	line-height: 44px;
+	padding-left: 40px;
+	width: 212px;
+}
+
+.footer .needhelp .needhelp-text {
+	color: #FFFFFF;
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+	height: 44px;
+	line-height: 44px;
+	padding-left: 30px;
+}
+
+.footer .needhelp .needhelp-text a {
+	color: #FFFFFF;
+}
+
+.footer .fnav-title {
+	font-size: 18px;
+}
+
+.footer .fnav-links {
+	list-style-type: none;
+	margin: 15px 0px 0px;
+	padding: 0px;
+}
+
+.footer .fnav-links li {
+	padding-bottom: 4px;
+}
+
+.footer .fnav-links li a {
+	color: #333;
+}
+
+.footer-bottom {
+	background-color: #F1F1F1;
+	padding: 20px 0px;
+}
+
+.breadcrumbs {
+	padding-top: 10px;
+}
+
+.breadcrumbs .breadcrumb {
+	background-color: transparent !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.breadcrumbs .breadcrumb a {
+	color: #333;
+	text-decoration: none;
+}
+
+.breadcrumbs .breadcrumb a.active {
+}
+
+.breadcrumbs .breadcrumb a.active:hover {
+    text-decoration: underline;
+}
+
+.alternative-breadcrumb .breadcrumbs .breadcrumb {
+	background-color: transparent !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.alternative-breadcrumb .breadcrumbs .breadcrumb a {
+	color: #AAA !important;
+}
+
+/* Home */
+
+.home-slide {
+	background: url("//s3.amazonaws.com/elasticbeanstalk-us-east-1-567054900300/vietnam-evisa.org/template/images/wizban/slide-bg4.jpg?r=u") no-repeat scroll right center transparent;
+	min-height: 400px;
+	position: relative;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.home-slide .container {
+	position: relative;
+}
+
+.home-slide .girl {
+	background: url("//s3.amazonaws.com/elasticbeanstalk-us-east-1-567054900300/vietnam-evisa.org/template/images/wizban/girl-2.png?r=u") no-repeat scroll 0 bottom transparent;
+	width: 212px;
+	height: 393px;
+	display: block;
+	position: absolute;
+	left: 15px;
+	top: 7px;
+	z-index: 2;
+}
+
+.home-slide h1 {
+	font-size: 24px;
+	color: #FFF;
+}
+
+.home-slide h2 {
+	font-size: 32px;
+	color: #e41e01;
+}
+
+.home-slide ul.checklist {
+	list-style-image: url("../images/checkmark.png");
+	margin-top: 20px;
+	margin-left: 25px;
+	padding: 0px;
+	color: #FFF;
+}
+
+.home-slide ul.checklist li {
+	font-size: 16px;
+	margin: 12px 0px;
+}
+
+.home-slide .cms-type-block {
+	background: url("//s3.amazonaws.com/elasticbeanstalk-us-east-1-567054900300/vietnam-evisa.org/template/images/wizban/foot-bg.png?r=u") repeat scroll 0 0 transparent;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: 1;
+}
+
+.home-slide ul.cms-type-list {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.home-slide ul.cms-type-list li {
+	float: left;
+	text-align: left;
+	font-size: 14px;
+	border-right: 1px solid #CCCCCC;
+    padding: 15px 15px 0px;
+}
+
+.home-slide ul.cms-type-list li:last-child {
+	border-right: none;
+}
+
+.home-slide ul.cms-type-list li .cms-type-img {
+	float: left;
+	margin-right: 10px;
+}
+
+.home-slide ul.cms-type-list li .cms-type-txt {
+	float: left;
+	margin-right: 10px;
+	line-height: 1.5em;
+}
+
+.greeting {
+	position: relative;
+	background: url("../images/open-quote.jpg?r=u") no-repeat scroll 0 0 transparent;
+	padding: 10px 60px;
+	text-align: left;
+}
+
+.greeting .close-quote {
+	position: absolute;
+	background: url("../images/close-quote.jpg?r=u") no-repeat scroll 0 0 transparent;
+	bottom: 0px;
+	right: 0px;
+	width: 50px;
+	height: 34px;
+}
+
+.cluster-sub-title {
+	margin-bottom: 20px;
+}
+
+.more-info-cluster img:hover {
+	opacity: 0.8;
+}
+
+.more-info-cluster .col-xs-12 {
+	padding-bottom: 40px;
+}
+
+.our-service-cluster img:hover {
+	opacity: 0.8;
+}
+
+.our-service-cluster .col-xs-12 {
+	padding-bottom: 40px;
+}
+
+.cluster-item-title a {
+	color: inherit !important;
+}
+
+/* End Home */
+
+/* Follow */
+
+.followus {
+	margin: 40px 0px;
+	background: url("../images/shadow-bar.jpg?r=u") no-repeat scroll center bottom transparent;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    min-height: 160px;
+}
+.followus .label {
+	text-align: left;
+	font-size: 24px;
+	color: #444444;
+}
+.followus .icon {
+	width: 62px;
+	margin-left: 30px;
+	font-size: 11px;
+}
+.followus .icon img {
+	margin: 0px auto 6px;
+	text-align: center;
+}
+.followus .icon div {
+	margin: 0px auto;
+	text-align: center;
+}
+.followus .vline {
+	height: 80px;
+	margin-left: 30px;
+	border-left: 1px solid #D6D6D6;
+    width: 1px;
+}
+
+/* End Follow */
+
+/* Processing */
+
+.processing {
+	background: url("//s3.amazonaws.com/elasticbeanstalk-us-east-1-567054900300/vietnam-evisa.org/template/images/wizban/how-it-works.jpg?r=u") no-repeat scroll bottom center transparent;
+	min-height: 300px;
+	position: relative;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.processing-img {
+	background: url("//s3.amazonaws.com/elasticbeanstalk-us-east-1-567054900300/vietnam-evisa.org/template/images/wizban/foot-black-bg.png") repeat scroll 0 0 transparent;
+	width: 100%;
+	position: absolute;
+	top: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.processing-img .text {
+	position: relative;
+}
+
+.processing-img .text .txt-container {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.processing-img .text .txt-container .value-prop {
+	height: auto;
+}
+
+.processing-img .text .txt-container .value-prop h1 {
+	color: #FFFFFF;
+	font-size: 36px;
+	font-weight: 100;
+}
+
+.processing-img .text .txt-container .value-prop h5 {
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.processing-cluster {
+	position: relative;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.processing-cluster h2 {
+	color: #E41E01;
+}
+
+.processing-cluster ul.checklist {
+	list-style-type: none;
+	padding: 0px;
+}
+
+.processing-cluster ul.checklist li {
+	font-size: 14px;
+	margin: 12px 0px;
+}
+
+.processing-cluster .steps {
+	display: table;
+}
+
+.processing-cluster .step-num {
+	display: table-cell;
+	width: 40px;
+	height: 40px;
+	padding-right: 15px;
+}
+
+.processing-cluster .step-num .number {
+	background-color: #E41E01;
+	border-radius: 50%;
+	color: #ffffff;
+	display: block;
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 40px;
+}
+
+.processing-cluster .step-content {
+	display: table-cell;
+}
+
+.processing-cluster .col-md-7 .step-content h2 {
+	margin-top: 5px;
+}
+
+/* End Processing */
+
+/* Help Banner */
+
+.plan-pricing-help {
+	background-image: url("//img1.wsimg.com/fos/201401/hosting/website-builder/img/ASIA_bg-here-to-help.jpg");
+	background-position: 0 0;
+	background-size: cover;
+	min-height: 260px;
+	padding: 2.85714em 40em 2.85714em 4.28571em;
+}
+
+.plan-pricing-help > h3 {
+	color: #FFFFFF;
+	font-size: 22px;
+	font-weight: 100;
+	margin-bottom: 15px;
+}
+.plan-pricing-help > p {
+	color: #FFFFFF;
+}
+
+.pr-section-bg {
+    background-color: #f0f0f0;
+}
+.pr-block {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.pr-blockL {
+    color: #CCC;
+    float: left;
+    font-size: 80px;
+    line-height: 60px;
+    margin-right: 10px;
+}
+.pr-blockR {
+    font-size: 12px;
+    line-height: 14px;
+}
+.pr-blockR p {
+    font-size: 16px;
+}
+
+/* End Help Banner */
+
+/* Help */
+
+.contact-us-img {
+	background-image: url("//s3.amazonaws.com/elasticbeanstalk-us-east-1-567054900300/vietnam-evisa.org/template/images/contactus.jpg");
+	background-position: 50% 18%;
+	background-repeat: no-repeat;
+	min-height: 185px;
+	overflow: hidden;
+}
+
+.contact-us-img .text {
+	position: relative;
+}
+
+.contact-us-img .text .txt-container {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.contact-us-img .text .txt-container .value-prop {
+	margin-top: 20px;
+	max-width: 300px;
+	padding: 20px;
+	background-color: #1570a6;
+	height: auto;
+}
+
+.contact-us-img .text .txt-container .value-prop h1 {
+	color: #fff;
+	font-weight: 100;
+}
+
+.contact-us-img .text .txt-container .value-prop h5 {
+	color: #fff;
+	font-weight: 100;
+}
+
+#contact-form .form-label {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+/* End Help */
+
+/* Service */
+
+.services {
+	background: url("//s3.amazonaws.com/elasticbeanstalk-us-east-1-567054900300/vietnam-evisa.org/template/images/wizban/service-bg.jpg") no-repeat scroll bottom center transparent;
+	min-height: 300px;
+	position: relative;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.services-img {
+	background: url("//s3.amazonaws.com/elasticbeanstalk-us-east-1-567054900300/vietnam-evisa.org/template/images/wizban/foot-bg.png") repeat scroll 0 0 transparent;
+	width: 100%;
+	position: absolute;
+	top: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.services-img .text {
+	position: relative;
+}
+
+.services-img .text .txt-container {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.services-img .text .txt-container .value-prop {
+	height: auto;
+}
+
+.services-img .text .txt-container .value-prop h1 {
+	color: #E41E01;
+	font-size: 36px;
+	font-weight: 100;
+}
+
+.services-img .text .txt-container .value-prop h5 {
+	font-size: 20px;
+	font-weight: 100;
+}
+
+/* End Service */
+
+/* Modal Dialog */
+
+.modal-error .modal-header {
+	background-color: #DD4B39;
+}
+
+.modal-error .modal-header {
+	color: #FFFFFF;
+	border: none !important;
+}
+
+.modal-info .modal-header {
+	background-color: #428BCA;
+}
+
+.modal-info .modal-header {
+	color: #FFFFFF;
+	border: none !important;
+}
+
+.modal-warning .modal-header {
+	background-color: #F0AD4E;
+}
+
+.modal-warning .modal-header {
+	color: #FFFFFF;
+	border: none !important;
+}
+
+.modal-error .close {
+	color: #FFFFFF !important;
+	opacity: 1 !important;
+	text-shadow: none !important;
+}
+
+.modal-error .modal-header-success {
+	background-color: #5cb85c !important;
+}
+
+/* End Modal Dialog */
+
+/* Review */
+#review-detail {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 3px 3px 3px 3px;
+    margin: 40px 0px 20px;
+    padding: 10px 0;
+}
+#review-detail ul.tabs {
+    border-bottom: 1px solid #D4D4D4;
+    padding-bottom: 28px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+#review-detail ul.tabs li {
+    color: #666666;
+    float: left;
+    padding-right: 20px;
+}
+#review-detail ul.tabs li a.selected {
+    border-bottom: 3px solid #E41E01;
+    color: #E41E01;
+    font-weight: bold;
+}
+#review-detail ul.tabs li a {
+    color: #2A2A2A;
+    font-size: 14px;
+    padding: 8px 0;
+    text-decoration: none;
+}
+#review-detail div.tab-selected {
+    display: block;
+}
+#review-detail div.tab-content {
+    display: none;
+}
+#review-detail .summary-box .label {
+    font-size: 18px;
+    line-height: 28px;
+}
+#review-detail .summary-box .rating {
+    margin-left: 10px;
+}
+#review-container .review-form {
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 14px 8px -12px #CCCCCC;
+    margin: 10px 0;
+    padding: 10px;
+}
+#review-container .review-form table {
+    margin-left: 20px;
+}
+#review-container .review-form table.tbl-review td {
+    vertical-align: top;
+}
+#review-container .review-form td {
+    padding: 6px 4px;
+}
+#review-container .review-form td input[type="text"] {
+    width: 500px;
+}
+#review-container .review-form td select {
+    width: 250px;
+}
+#review-container .review-form td textarea {
+    height: 100px;
+    width: 500px;
+}
+#review-container .review-box {
+	margin-top: 20px;
+}
+#review-container .review-box .name {
+	font-size: 14px;
+	margin-left: 10px;
+}
+#review-container .review-box .location {
+	color: #999999;
+	font-size: 11px;
+    margin-top: 10px;
+	margin-left: 10px;
+}
+#review-container .review-box .item {
+    margin-top: 20px;
+}
+#review-container .review-box .item .rating {
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+}
+#review-container .review-box .item .title {
+    font-size: 16px;
+}
+#review-container .review-box .item .date {
+	color: #999999;
+	font-size: 11px;
+    margin-top: 10px;
+}
+#review-container .review-box .item .text {
+    line-height: 18px;
+    text-align: justify;
+    margin-top: 10px;
+}
+#review-container .review-box .item .respond {
+	background: url("../images/support-40x40.jpg") no-repeat scroll 10px 10px #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 14px 8px -12px #CCCCCC;
+    margin: 10px 0;
+    padding: 15px 15px 15px 70px;
+}
+#review-container .review-box .item .respond.guest {
+	background-image: url("../images/no-avatar.gif");
+}
+#question-container .question-form {
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 14px 8px -12px #CCCCCC;
+    margin: 10px 0;
+    padding: 10px;
+}
+#question-container .question-form table {
+    margin-left: 20px;
+}
+#question-container .question-form table.tbl-review td {
+    vertical-align: top;
+}
+#question-container .question-form td {
+    padding: 6px 4px;
+}
+#question-container .question-form td input[type="text"] {
+    width: 500px;
+}
+#question-container .question-form td select {
+    width: 250px;
+}
+#question-container .question-form td textarea {
+    height: 100px;
+    width: 500px;
+}
+#question-container .question-box {
+	margin-top: 20px;
+}
+#question-container .question-box .name {
+	font-size: 14px;
+	margin-left: 10px;
+}
+#question-container .question-box .location {
+	color: #999999;
+	font-size: 12px;
+    margin-top: 6px;
+	margin-left: 10px;
+}
+#question-container .question-box .item {
+    margin-top: 20px;
+}
+#question-container .question-box .item .avatar {
+    margin-bottom: 20px;
+}
+#question-container .question-box .item .title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+#question-container .question-box .item .respond .title {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 0px;
+}
+#question-container .question-box .item .date {
+	color: #999999;
+	font-size: 12px;
+    margin-top: 10px;
+}
+#question-container .question-box .item .text {
+    line-height: 18px;
+    text-align: justify;
+    margin-top: 10px;
+}
+#question-container .question-box .item .respond {
+	background: url("../images/support-40x40.jpg") no-repeat scroll 15px 15px #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 14px 8px -12px #CCCCCC;
+    margin: 10px 0;
+    padding: 15px 15px 15px 70px;
+}
+#question-container .question-box .item .respond.guest {
+	background-image: url("../images/no-avatar.gif");
+}
+/* End Review */
+
+/* Item List */
+
+.item-list {
+}
+
+.item-list .item {
+	padding-bottom: 15px;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.item-list .item h1.item-head a {
+	font-size: 18px;
+	color: #D40000;
+}
+
+.item-list .item h1.item-head a:hover {
+	color: #D40000;
+}
+
+/* End Item List */
+
+/* Apply Form */
+
+.sl-apply {
+	display: table;
+	margin: 10px -15px;
+    height: auto;
+    width: 100%;
+}
+
+.sl-apply input {
+	margin: 5px 14px 0 0;
+    vertical-align: top;
+}
+
+.sl-apply .bg-title {
+	font-size: 22px;
+	display: inline-block;
+	background: url(../images/home/icon/i-page.png) no-repeat left center transparent;
+	padding-left: 44px;
+	line-height: 24px;
+}
+
+.sl-apply .not-sl {
+	background: url(../images/home/icon/i-page-not.png) no-repeat left center transparent !important;
+	color: #b2b1b1;
+}
+
+.tab-step {
+    border-bottom: 3px solid #DE4A4A;
+	margin: 0 0 30px;
+}
+.tab-step h1.note {
+    float: left;
+    font-family: "Oswald";
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0px;
+	padding-bottom: 10px;
+}
+ul.style-step {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+    float: right;
+    vertical-align: baseline;
+}
+ul.style-step li {
+	background-color: #F2F3F3;
+	color: #A2A2A2;
+	display: inline;
+	float: left;
+	font-weight: bold;
+	margin-left: 2px;
+	padding: 6px 15px;
+}
+ul.style-step li font.number {
+    font-size: 20px;
+}
+ul.style-step li.active {
+    background: none repeat scroll 0 0 #DE4A4A;
+    color: #FFFFFF;
+}
+.applyform input[type="text"].error, input.error, select.error {
+    border: 1px solid #DF1F26 !important;
+}
+.applyform div.error {
+    border: 1px dotted #DF1F26;
+}
+.rush-info {
+	background-color: #F5F8FB;
+	padding: 10px;
+}
+.rush-info a {
+	text-decoration: underline;
+}
+.applyform input[type="text"] {
+}
+.applyform select {
+}
+.applyform textarea {
+}
+
+.applyform .passport-attachment {
+}
+
+.applyform .passport-photo {
+	border: 1px solid #ddd;
+	padding: 2px;
+}
+
+.applyform .passport-data {
+	border: 1px solid #ddd;
+	padding: 2px;
+}
+
+.applyform .passport-photo,
+.applyform .passport-data {
+	height: 250px;
+}
+
+.applyform .passport-photo .img,
+.applyform .passport-data .img {
+	position: relative;
+}
+
+.applyform .passport-photo .img .select-overlay,
+.applyform .passport-data .img .select-overlay {
+	position: absolute;
+	top: 0px;
+	background: transparent;
+	transition-duration: 0.5s;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+}
+
+.applyform .passport-photo .img .select-overlay:hover,
+.applyform .passport-data .img .select-overlay:hover {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.applyform .passport-photo .img .select,
+.applyform .passport-data .img .select {
+	position: absolute;
+	bottom: 0px;
+	padding: 8px 10px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	text-align: center;
+}
+
+.applyform .passport-photo .img .btn-file-delete,
+.applyform .passport-data .img .btn-file-delete {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background: #DE4A4A;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+
+.applyform .passport-photo .img {
+	background: url("../images/passport-photo.jpg") no-repeat scroll center center transparent;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+
+.applyform .passport-data .img {
+	background: url("../images/passport-data.jpg") no-repeat scroll center center transparent;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+
+.processing-note {
+	background-color: #ECEFF1;
+	color: #444;
+	margin-top: 12px;
+	padding: 15px;
+	font-size: 12px;
+	position: relative;
+}
+
+.processing-note.note-success {
+	background-color: #dff0d8;
+}
+
+.processing-note.note-primary {
+	background-color: #409DD2;
+	color: #fff;
+}
+
+.processing-note:before {
+	position: absolute;
+	display: block;
+	top: -12px;
+	left: 20px;
+	content: " ";
+	box-sizing: border-box;
+	z-index: 2;
+	border-color: transparent transparent rgb(236, 239, 241);
+	border-style: solid;
+	border-width: 6px;
+}
+
+.processing-note.note-success:before {
+	border-color: transparent transparent rgb(223, 240, 216);
+}
+
+.processing-note.note-primary:before {
+	border-color: transparent transparent rgb(64, 157, 210);
+}
+
+.panel-options {
+}
+
+.panel-options .div {
+	padding-top: 15px;
+	width: 100%;
+	height: 1px;
+	border-top: 1px solid #CCC;
+	display: block;
+}
+
+.panel-fees {
+	background-color: #FFFFFF;
+    padding: 0px;
+    border: 1px solid #DDDDDD;
+    position: relative;
+}
+.panel-fees ul {
+	list-style: none;
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+}
+.panel-fees li {
+    border-bottom: 1px solid #BDC6CA;
+    padding: 10px;
+}
+.panel-fees .last {
+    border-bottom: 1px solid #6997B3;
+}
+.panel-fees span, .panel-fees table.extra_service {
+    float: right;
+}
+.panel-fees label span {
+    float: none !important;
+}
+.panel-fees table.extra_service td {
+    padding: 0px 0px 10px 0px;
+}
+.panel-fees .total {
+	border: none;
+	margin-top: -1px;
+    border-top: 1px solid #6997B3;
+}
+.panel-fees .price {
+    color: #005286;
+    font-weight: bold;
+}
+.panel-fees .service-fee-item {
+    padding-bottom: 15px;
+}
+.panel-fees .service-fee-item:last-child {
+    padding-bottom: 0px;
+}
+.panel-fees .processing-time-item {
+    padding-bottom: 15px;
+}
+.panel-fees .processing-time-item:last-child {
+    padding-bottom: 0px;
+}
+.panel-fees .full-package-item {
+    padding-bottom: 15px;
+}
+.panel-fees .full-package-item:last-child {
+    padding-bottom: 0px;
+}
+.panel-fees .discount_t {
+    color: #005286;
+    font-weight: bold;
+}
+.panel-fees .total span {
+    color: #DC2222;
+    font-size: 16px;
+    font-weight: bold;
+}
+.panel-fees .payment-methods {
+	background-color: #ECEFF1;
+	text-align: center;
+	padding: 12px 20px;
+	margin-top: 10px;
+}
+.promotion-input {
+}
+.applyform.step2 .group {
+	border: 1px solid #DDD;
+	margin-bottom: 15px;
+}
+.applyform.step2 .group h2 {
+	background-color: #F1F1F1;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 12px 15px;
+    color: #D40000;
+}
+.applyform.step2 .group .group-content .form-control {
+	padding: 4px;
+	font-size: 12px;
+}
+.applyform.step2 .group .group-content {
+	padding: 15px;
+}
+.applyform.step2 .group .group-content .passport-detail {
+	font-size: 12px;
+	margin-left: -2px;
+	margin-right: -2px;
+}
+.applyform.step2 .group .group-content .passport-detail *[class*="col-"] {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.applyform.step2 .group .group-content .passport-detail *[class*="col-"] .row {
+	margin-left: -2px;
+	margin-right: -2px;
+}
+.applyform.step2 .group .group-content .passport-detail .form-control {
+	margin-bottom: 15px;
+}
+.terms_conditions_confirm {
+	text-decoration: underline;
+}
+
+.applyform.step3 .table-summary {
+    border-collapse: collapse;
+    margin: 0 0 18px 0;
+}
+.applyform.step3 h3 {
+}
+.applyform.step3 .table-summary th,
+.applyform.step3 .table-summary td {
+    padding: 7px 10px;
+    border: 1px solid #DDD;
+}
+.applyform.step3 .table-summary th {
+    background: #F1F1F1;
+}
+.applyform.step3 .table-summary td {
+    font-weight: normal;
+}
+.applyform.step3 .table-summary .total {
+	font-weight: bold;
+    color: red;
+}
+
+.applymore15 {
+    padding: 15px 0px; 
+}
+.applymore15 p {
+    line-height: 10px;
+}
+.applymore15 a {
+    text-decoration: underline;
+}
+.applymore15 .here {
+    text-decoration: underline;
+}
+
+/* End Apply Form */
+
+/* Extra Services */
+
+.extra-service-listing {
+}
+
+.extra-service-listing .itemlist {
+	padding: 0px 0px 40px;
+	border-bottom: 1px solid #CCC;
+}
+
+.extra-service-listing .itemlist .title {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.extra-service-listing .itemlist .title a {
+	color: #D40000;
+}
+
+/* End Extra Services */
+
+/* Questions & Answers */
+
+.question-list {
+	margin-top: 20px;
+}
+
+.question-list .question-item {
+	border-color: #ddd;
+    border-style: solid;
+    border-width: 0 0 1px;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.question-list .question-item .question-title a {
+	font-size: 16px;
+}
+
+.question-list .question-item .question-detail {
+	margin-bottom: 10px;
+}
+
+.question-list .question-item .signature {
+	color: #4D4D4D;
+	font-size: 12px;
+	margin-bottom: 10px;
+	overflow: visible;
+}
+
+.question-list .question-item .signature .asked-by {
+	color: #888888;
+}
+
+.question-list .question-item .signature .asked-by .author-name {
+	display: inline;
+	font-weight: bold;
+}
+
+.question-list .question-item .signature a.view-answers {
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+/* End Questions & Answers */
+
+/* Tooltip */
+
+.tooltip-marker {
+	color: #CFD8DC;
+	cursor: help;
+	text-decoration: none !important;
+}
+
+#tooltip {
+	background-color: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	position: absolute;
+	z-index: 100;
+	padding: 15px;
+	max-width: 400px;
+}
+
+#tooltip:after {
+	background: url("../images/tooltip-marker.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    top: 100%;
+    content: "";
+    height: 11px;
+    position: absolute;
+    width: 17px;
+    left: 50%;
+	bottom: -10px;
+	margin-left: -9px;
+}
+
+#tooltip.top:after {
+	border-top-color: transparent;
+	border-bottom: 10px solid #FFFFFF;
+	top: -20px;
+	bottom: auto;
+}
+
+#tooltip.left:after {
+	left: 10px;
+	margin: 0;
+}
+
+#tooltip.right:after {
+	right: 10px;
+	left: auto;
+	margin: 0;
+}
+
+#tooltip p {
+	color: #333333 !important;
+	line-height: 18px;
+}
+
+#tooltip ul {
+	margin-left: 10px;
+	list-style: inherit !important;
+}
+
+/* End Tooltip */
+
+/* Google Translate */
+
+.goog-te-gadget-simple {
+    background: none repeat scroll 0 0 transparent !important;
+    border: medium none !important;
+	padding: 0px !important;
+	font-size: 13px !important;
+}
+.goog-te-gadget-icon {
+    display: none;
+}
+.goog-te-menu-value {
+    margin: 0px !important;
+}
+.goog-te-menu-value span {
+    color: #2a2a2a !important;
+    border-width: 0px !important;
+}
+.goog-te-banner-frame {
+	display: none;
+}
+body {
+	top: 0 !important;
+}
+.goog-text-highlight {
+	background: transparent !important;
+	box-shadow: none !important;
+}
+#goog-gt-tt {
+	display: none !important;
+}
+.goog-te-menu-frame {
+	box-shadow: none !important;
+}
+
+/* End Google Translate */
+
+/* Vietnam Visa Fees */
+
+.stamping-fee .heading {
+	margin-top: 0px;
+	text-transform: uppercase;
+	color: red;
+}
+
+.stamping-fee ul {
+	list-style-type: square;
+    margin: 0;
+    padding-left: 15px;
+    color: #999;
+}
+
+.stamping-fee ul li {
+}
+
+.stamping-fee ul li span {
+    color: #464646;
+}
+
+.pricing-table th {
+	background-color: #868686;
+	color: #FFF;
+}
+
+.pricing-table th.sub-heading {
+	background-color: #9e9e9e;
+	color: #FFF;
+}
+
+.pricing-table td {
+	background-color: #ededed;
+	color: #333;
+}
+
+.pricing-table th,
+.pricing-table td {
+	border-color: #fff !important;
+}
+
+/* End Vietnam Visa Fees */
+
+/* Support Online */
+
+.support-online-widget {
+	width: 100%;
+	background-color: #ED5459;
+	color: #FFFFFF;
+	padding: 15px 10px;
+	margin-bottom: 15px;
+}
+.right-corner {
+    background: url("../images/corner-bg-top-right.png") no-repeat scroll right top #ed5459;
+}
+.support-online-widget .title {
+	margin: 0px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	border-bottom: 1px solid #f28587;
+}
+.support-online-widget .content {
+    padding-top: 10px;
+}
+.support-online-widget table {
+    margin-bottom: 5px;
+}
+.support-online-widget td {
+    padding: 5px 0px;
+    vertical-align: middle;
+}
+.support-online-widget .content .email a {
+	color: #fff600;
+}
+.support-online-widget .content .phone {
+	color: #fff600;
+}
+.support-online-widget .content .btn-chat {
+	margin-top: 10px;
+}
+.subiz_online {
+	cursor: pointer;
+	display: block;
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+	text-indent: -99999px;
+	background: url(../images/btn-online.jpg) no-repeat scroll center center transparent;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.subiz_offline {
+	cursor: pointer;
+	display: block;
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+	text-indent: -99999px;
+	background: url(../images/btn-offline.jpg) no-repeat scroll center center transparent;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+/* End of Support Online */
+
+/* Trustpilot */
+
+.trustpilot {
+	margin-bottom: 15px;
+}
+
+/* End Trustpilot */
+
+/* Payment Online */
+
+.payment-online {
+	margin-bottom: 15px;
+	background-color: #DF1F26;
+}
+.payment-online a {
+	background: url("../images/secure.png") no-repeat scroll 10px center transparent;
+	display: inline-block;
+	text-decoration: none;
+}
+.payment-online h1 {
+	color: #FFFFFF;
+	font-size: 16px;
+	padding: 0px;
+	margin: 10px 0px 0px 75px;
+}
+.payment-online p {
+	color: #FFFFFF;
+	font-size: 10px;
+	padding: 0px;
+	margin-left: 75px;
+	line-height: 1em;
+}
+
+/* End of Payment Online */
+
+/* Ads */
+
+.ads {
+	margin-bottom: 15px;
+}
+
+/* End Ads */
+
+/* Confidence */
+
+.confidence-widget {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.confidence-widget .banner {
+	background: url("../images/confidence-bg.jpg") bottom center transparent;
+	width: 100%;
+	height: 150px;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.confidence-widget .content {
+	border: 1px solid #CCCCCC;
+	border-top: none;
+    padding: 10px 15px;
+}
+.confidence-widget .title {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 0;
+}
+.confidence-widget .content ul {
+	list-style: none;
+	list-style-image: url("../images/checkmark.png");
+	margin-left: 25px;
+	padding: 0px;
+}
+.confidence-widget .content ul li {
+	line-height: 32px;
+}
+
+/* End Confidence */
+
+/* Service */
+
+.service-widget {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.service-widget .banner {
+	background: url("../images/service/service-bg.jpg") top center transparent;
+	width: 100%;
+	height: 150px;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.service-widget .content {
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	padding-top: 10px;
+}
+.service-widget .title {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 15px;
+}
+.service-widget .content ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.service-widget .content ul li {
+	border-bottom: 1px solid #DDDDDD;
+}
+.service-widget .content ul li:last-child {
+	border-bottom: none;
+}
+.service-widget .content ul li a {
+	width: 100%;
+	padding: 10px;
+	line-height: 26px;
+	display: block;
+	color: #000000;
+	text-decoration: none;
+	border-left: 2px solid #FFFFFF;
+}
+.service-widget .content ul li a:hover {
+	background-color: #EFEFEF;
+	border-left: 2px solid #DE4A4A;
+}
+.service-widget .content ul li a i {
+	float: left;
+	display: block;
+	width: 40px;
+	height: 26px;
+	margin-right: 10px;
+}
+.service-widget .content ul li a .passport {
+	background: url("../images/service/icons/passport-2.png") no-repeat scroll center center transparent;
+}
+.service-widget .content ul li a .airport-concierge {
+	background: url("../images/service/icons/airport-concierge-2.png") no-repeat scroll center center transparent;
+}
+.service-widget .content ul li a .car {
+	background: url("../images/service/icons/car-2.png") no-repeat scroll center center transparent;
+}
+.service-widget .content ul li a .hotel {
+	background: url("../images/service/icons/hotel-2.png") no-repeat scroll center center transparent;
+}
+.service-widget .content ul li a .travel {
+	background: url("../images/service/icons/travel-2.png") no-repeat scroll center center transparent;
+}
+.service-widget .content ul li a .flight {
+	background: url("../images/service/icons/flight-2.png") no-repeat scroll center center transparent;
+}
+
+/* End Service */
+
+/* Embassy List */
+
+.embassy .embassy-banner {
+	background: url("//s3.amazonaws.com/elasticbeanstalk-us-east-1-567054900300/vietnam-evisa.org/template/images/wizban/embassy-bg.jpg") no-repeat scroll bottom center transparent;
+	min-height: 300px;
+	position: relative;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.embassy .pagination {
+    text-align: center;
+    margin: 10px 0px;
+}
+.embassy .pagination a {
+	text-decoration: none;
+	color: #717171;
+	font: bold 13px Arial, sans-serif;
+	padding: 8px 10px;
+	margin: 4px;
+	background-color: #F8F8F8;
+}
+.embassy .pagination a.current {
+	color: white;
+	background: #DA0000;
+}
+
+.embassy .pagination a:hover {
+	color: white;
+	background: #DA0000;
+}
+.embassy .pagination a.active,#pagination a.current:active {
+}
+.embassy .pagination a.current:hover {
+	background: #DA0000;
+}
+
+.embassy .nations {
+	margin: 20px 0px;
+}
+.embassy .nations .embassies {
+	border-top: 1px solid #E9E9E9;
+    float: left;
+    padding: 15px 0;
+    width: 100%;
+}
+.embassy .nations .embassies .number {
+    border-right: 1px solid #888888;
+    font: 30px/40px Tahoma,Geneva,sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    min-width: 50px;
+}
+.embassy .nations .embassies ul {
+    margin: 0px;
+    padding: 0px;
+}
+.embassy .nations .embassies ul li {
+    display: block;
+    margin-top: 5px;
+}
+.embassy .nations .embassies ul img {
+    width: 16px;
+    height: 16px;
+    padding-right: 4px;
+}
+.embassy .nations .embassies ul a {
+}
+.embassy-l {
+}
+.embassy-l embassy-ct {
+    line-height: 18px;
+    padding: 15px 0 0 15px;
+}
+.embassy-l h1.title {
+    color: #888888;
+    float: left;
+    font-family: "Times New Roman",Times,serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 12px;
+    width: 108px;
+}
+.embassy-l p.message {
+    color: #005286;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 108px;
+}
+.embassy-l p.error {
+    color:#FF0000;
+    padding-left: 108px;
+}
+ul.listpost {
+    float: left;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+    position: relative;
+    width: 430px;
+}
+ul.listpost li {
+    color: #888888;
+    float: left;
+    font-weight: bold;
+    line-height: 18px;
+    margin-top: 5px;
+    width: 100%;
+}
+ul.listpost li img {
+    float: left;
+}
+.embassy-r {
+	float: right;
+}
+.embassy-scroll {
+    background: none repeat scroll 0 0 #FBFBFB;
+    border-color: #E9E9E9;
+    border-style: solid;
+    border-width: 1px 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0 0 12px;
+    position: relative;
+    top: 6px;
+    width: 350px;
+    height: 570px;
+}
+.line-embassy {
+    float: left;
+    margin-top: 22px;
+    width: 100%;
+}
+.bgnumber {
+    border: 1px solid #8C8C8C;
+    display: inline;
+    float: left;
+    font-weight: bold;
+    height: 17px;
+    line-height: 16px;
+    margin-left: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 17px;
+}
+ul.list-embassy {
+    display: inline;
+    float: left;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 12px;
+    width: 280px;
+}
+ul.list-embassy li {
+    float: left;
+    line-height: 18px;
+    width: 140px;
+}
+
+/* End Embassy List */
+
+/* Visa Tips */
+
+.visa-tips {
+	margin-bottom: 40px;
+}
+
+.visa-tips .tip-item {
+	padding-bottom: 10px;
+	display: inline-block;
+}
+
+.visa-tips .tip-item img {
+	float: left;
+	margin-right: 10px;
+	display: inline-table;
+}
+
+/* End Visa Tips */
+
+/* Check Visa Status */
+
+.check-visa-status .form {
+	padding: 20px;
+	background-color: #F8F8F8;
+	border: 1px solid #DDDDDD;
+}
+
+.check-visa-status .form-label {
+	text-align: right;
+}
+
+/* End Check Visa Status */
+
+/* Extra Service Form */
+
+.service-form {
+    background: none repeat scroll 0 0 #F8F8F8;
+    border: 1px solid #DDDDDD;
+    padding: 20px 15px;
+}
+.service-form label {
+	font-weight: normal;
+}
+.service-form .service-title {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 0px;
+    text-transform: uppercase;
+}
+.service-form ul {
+    list-style: none;
+    padding: 0px;
+}
+.service-form ul.form-left li {
+    list-style-type: none;
+    margin-left: 0px;
+}
+.service-form .step-title {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+.airport-service-form {
+	margin-top: 20px;
+}
+.airport-service-form .div {
+	border-bottom: 1px solid #FFFFFF;
+	border-top: 1px solid #DDDDDD;
+	margin: 10px 0px;
+}
+.airport-service-form .service-options {
+	margin-top: 10px;
+}
+.airport-service-form .service-options .tbl-service-options {
+	margin-left: 10px;
+}
+.airport-service-form .service-options .tbl-service-options tr {
+	border-bottom: 1px dotted #DDDDDD;
+	vertical-align: top;
+}
+.airport-service-form .service-options .tbl-service-options tr.last-child {
+	border-bottom: none;
+}
+.airport-service-form .service-options .tbl-service-options td {
+	padding: 10px 5px;
+}
+.airport-service-form .service-options .arrival-port {
+}
+.airport-service-form .service-options .group-size {
+}
+.airport-service-form .service-options ul li {
+    list-style-type: none;
+    margin-left: 0px;
+}
+.airport-service-form .contact-information {
+	margin-top: 10px;
+}
+.airport-service-form .contact-information .name-prefix {
+}
+.airport-service-form .contact-information .tbl-contact-information {
+	margin-left: 10px;
+}
+.airport-service-form .contact-information .tbl-contact-information td {
+	padding: 5px;
+}
+.airport-service-form .contact-information .welcome-name {
+}
+.airport-service-form .contact-information .arrival-date {
+}
+.airport-service-form .contact-information .flight-number {
+}
+.airport-service-form .contact-information .welcome {
+	font-size: 14px;
+	font-weight: bold;
+}
+.airport-service-form .contact-information .welcome-name-t {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 14px 0px;
+}
+.airport-service-form .contact-information .welcome-board {
+	width: 100%;
+	background-color: #FFFFFF;
+	padding: 10px;
+	text-align: center;
+}
+.airport-service-form .contact-information .fullname {
+}
+.airport-service-form .contact-information .email {
+}
+.airport-service-form .contact-information .phone-number {
+}
+.airport-service-form .contact-information .special-request {
+}
+.airport-service-form .contact-button {
+	margin-top: 20px;
+	text-align: center;
+}
+
+/* End Extra Service Form */
+
+/* FAQs */
+
+.faqs {
+	background: url("//s3.amazonaws.com/elasticbeanstalk-us-east-1-567054900300/vietnam-evisa.org/template/images/wizban/faq-bg.jpg") no-repeat scroll bottom center transparent;
+	min-height: 300px;
+	position: relative;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.faqs-img {
+	background: url("//s3.amazonaws.com/elasticbeanstalk-us-east-1-567054900300/vietnam-evisa.org/template/images/wizban/foot-black-bg.png") repeat scroll 0 0 transparent;
+	width: 100%;
+	position: absolute;
+	top: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.faqs-img .text {
+	position: relative;
+}
+
+.faqs-img .text .txt-container {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.faqs-img .text .txt-container .value-prop {
+	height: auto;
+}
+
+.faqs-img .text .txt-container .value-prop h1 {
+	color: #FFFFFF;
+	font-size: 36px;
+	font-weight: 100;
+}
+
+.faqs-img .text .txt-container .value-prop h5 {
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+/* End FAQs */
+
+/* Visa Fees */
+
+.fees {
+	background: url("//s3.amazonaws.com/elasticbeanstalk-us-east-1-567054900300/vietnam-evisa.org/template/images/wizban/pricing-bg.jpg") no-repeat scroll bottom center transparent;
+	min-height: 300px;
+	position: relative;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.fees-img {
+	background: url("//s3.amazonaws.com/elasticbeanstalk-us-east-1-567054900300/vietnam-evisa.org/template/images/wizban/foot-black-bg.png") repeat scroll 0 0 transparent;
+	width: 100%;
+	position: absolute;
+	top: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.fees-img .text {
+	position: relative;
+}
+
+.fees-img .text .txt-container {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.fees-img .text .txt-container .value-prop {
+	height: auto;
+}
+
+.fees-img .text .txt-container .value-prop h1 {
+	color: #FFFFFF;
+	font-size: 36px;
+	font-weight: 100;
+}
+
+.fees-img .text .txt-container .value-prop h5 {
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+/* End Visa Fees */
+
+/* Related Info */
+
+.related-item {
+    margin-top: 20px;
+}
+.related-item h1 {
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #D4D4D4;
+}
+.related-item ul {
+	list-style-type: square;
+    margin: 0;
+    padding: 0 0 10px 15px;
+    color: #999;
+}
+.related-item ul li {
+    line-height: 1.5em;
+    padding: 4px 0px;
+}
+.related-item ul li a {
+    color: #464646;
+}
+.related-item ul li a:hover {
+    color: #dd0000;
+    text-decoration: underline;
+}
+.b-keywords {
+    background-color: #f8f8f8;
+    border: 1px solid #efefef;
+    height: 32px;
+    margin: 10px 0;
+}
+.b-keywords .keyword-label {
+    line-height: 32px;
+    padding: 0 10px;
+}
+.b-keywords .keyword-link {
+}
+
+/* End Related Info */
+
+/* Error Box */
+
+.b-error {
+    background: none repeat scroll 0 0 #ffffcc;
+    border: 1px solid #cc0000;
+    color: #cc3300;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 10px;
+}
+.b-error .marker {
+    background: url("../images/i-warning.png") no-repeat scroll left top transparent;
+    color: #df1f26;
+    padding: 8px 0 0 32px;
+}
+.b-error ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.b-error ul li {
+    padding: 8px 0 0 30px;
+}
+
+/* End Error Box */
+
+/* Dialog */
+
+.popup-panel {
+	position: fixed;
+	top: 40px;
+	width: 100%;
+	z-index: 100003;
+	text-align: center;
+}
+.overlay {
+	position: fixed;
+	top: 40px;
+	width: 100%;
+	z-index: 100003;
+	text-align: center;
+}
+.screen-overlay {
+	background-color: #2A2A2A;
+	height: 100%;
+	left: 0;
+	opacity: 0.7;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100002;
+}
+.dialog {
+	margin: 0px;
+	padding: 0px;
+    position: fixed;
+    text-align: center;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    z-index: 100003;
+}
+.cell-spacing {
+	min-width: 5%;
+}
+.cell-center {
+	width: 100%;
+	max-width: 450px;
+	display:inline-table;
+	text-align: left;
+}
+.pane-view {
+	background: url("../images/dialog-bg.png") repeat-x scroll 0 bottom #FFFFFF;
+	border-radius: 0.5em 0.5em 0.5em 0.5em;
+	padding: 10px;
+	position: relative;
+	margin: 5px 0;
+}
+.pane-view-content {
+    padding: 5px 10px 10px;
+}
+.pane-view-header {
+    border-bottom: 1px solid #999999;
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+.pane-view-body {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.pane-view-footer {
+}
+
+/* End Dialog */
+
+/* Message Box */
+
+.messagebox {
+	margin: 10px 0;
+}
+
+.messagebox .message-icon {
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+}
+
+.messagebox .message-container {
+	float: left;
+}
+
+.messagebox .message-container .message-title {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 8px 0px;
+}
+
+.messagebox .message-container .message-text {
+
+}
+
+.messagebox .message-info {
+	background-color: #BDE5F8;
+	border: 1px solid #46B6EC;
+	padding: 10px;
+}
+
+.messagebox .message-info .message-icon {
+	background: url("./icon/i-info.png") no-repeat scroll 0 0 transparent;
+}
+
+.messagebox .message-error {
+	background-color: #FFE8E8;
+	border: 1px solid #FFC1C1;
+	padding: 10px;
+}
+
+.messagebox .message-error .message-icon {
+	background: url("./icon/i-error.png") no-repeat scroll 0 0 transparent;
+}
+
+/* End Message Box */
+
+/* Switch */
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 32px;
+	height: 18px;
+}
+
+.switch input {
+	display:none;
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 14px;
+	width: 14px;
+	left: 2px;
+	bottom: 2px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked + .slider {
+	background-color: #2196F3;
+}
+
+input:focus + .slider {
+	box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+	-webkit-transform: translateX(14px);
+	-ms-transform: translateX(14px);
+	transform: translateX(14px);
+}
+
+/* Rounded sliders */
+.slider.round {
+	border-radius: 18px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+
+/* End Switch */
+
+/* VIP */
+
+.vip-slide {
+	background: url("../images/wizban/vietnam-visa-form.jpg") no-repeat scroll right center transparent;
+	min-height: 400px;
+	position: relative;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.vip-slide .container {
+	position: relative;
+}
+
+.vip-slide .xmas-girl {
+	background: url("//s3.amazonaws.com/elasticbeanstalk-us-east-1-567054900300/vietnam-evisa.org/template/images/wizban/xmas-girl.png?r=u") no-repeat scroll 0 bottom transparent;
+	width: 250px;
+	height: 393px;
+	display: block;
+	position: absolute;
+	left: 15px;
+	top: 7px;
+	z-index: 2;
+}
+
+.vip-slide h1 {
+	font-size: 36px;
+	color: #FFF;
+}
+
+.vip-slide h2 {
+	font-size: 20px;
+	color: #FFF;
+}
+
+.vip-slide .btn {
+	margin-top: 15px;
+}
+
+.th-rate {
+	background-color: #DE4A4A !important;
+	color: #FFF;
+}
+
+/* End VIP */
+
+/* E-Visa */
+
+.table-countries {
+	background-color: #FFF;
+}
+
+.table-countries td:nth-child(odd) {
+	background-color: #f9f9f9;
+}
+
+/* End E-Visa */
+
+/* Callout */
+
+.bs-callout {
+	padding: 20px;
+	margin: 20px 0;
+	border: 1px solid #eee;
+	border-left-width: 5px;
+	border-radius: 3px;
+}
+.bs-callout h4 {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+	margin-bottom: 0;
+}
+.bs-callout code {
+	border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+	margin-top: -5px;
+}
+.bs-callout-default {
+	border-left-color: #777;
+}
+.bs-callout-default h4 {
+	color: #777;
+}
+.bs-callout-primary {
+	border-left-color: #428bca;
+}
+.bs-callout-primary h4 {
+	color: #428bca;
+}
+.bs-callout-success {
+	border-left-color: #5cb85c;
+}
+.bs-callout-success h4 {
+	color: #5cb85c;
+}
+.bs-callout-danger {
+	border-left-color: #d9534f;
+}
+.bs-callout-danger h4 {
+	color: #d9534f;
+}
+.bs-callout-warning {
+	border-left-color: #f0ad4e;
+}
+.bs-callout-warning h4 {
+	color: #f0ad4e;
+}
+.bs-callout-info {
+	border-left-color: #5bc0de;
+}
+.bs-callout-info h4 {
+	color: #5bc0de;
+}
+
+/* End Callout */
+
+/* Social bootstrap button */
+.btn-social{position:relative;padding-left:44px;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width: 250px;display:inline-block;}.btn-social :first-child{position:absolute;left:0;top:0;bottom:0;width:32px;line-height:34px;font-size:1.6em;text-align:center;border-right:1px solid rgba(0,0,0,0.2)}
+.btn-social.btn-lg{padding-left:61px}.btn-social.btn-lg :first-child{line-height:45px;width:45px;font-size:1.8em}
+.btn-social.btn-sm{padding-left:38px}.btn-social.btn-sm :first-child{line-height:28px;width:28px;font-size:1.4em}
+.btn-social.btn-xs{padding-left:30px}.btn-social.btn-xs :first-child{line-height:20px;width:20px;font-size:1.2em}
+.btn-social-icon{position:relative;padding-left:44px;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;height:34px;width:34px;padding:0}.btn-social-icon :first-child{position:absolute;left:0;top:0;bottom:0;width:32px;line-height:34px;font-size:1.6em;text-align:center;border-right:1px solid rgba(0,0,0,0.2)}
+.btn-social-icon.btn-lg{padding-left:61px}.btn-social-icon.btn-lg :first-child{line-height:45px;width:45px;font-size:1.8em}
+.btn-social-icon.btn-sm{padding-left:38px}.btn-social-icon.btn-sm :first-child{line-height:28px;width:28px;font-size:1.4em}
+.btn-social-icon.btn-xs{padding-left:30px}.btn-social-icon.btn-xs :first-child{line-height:20px;width:20px;font-size:1.2em}
+.btn-social-icon :first-child{border:none;text-align:center;width:100% !important}
+.btn-social-icon.btn-lg{height:45px;width:45px;padding-left:0;padding-right:0}
+.btn-social-icon.btn-sm{height:30px;width:30px;padding-left:0;padding-right:0}
+.btn-social-icon.btn-xs{height:22px;width:22px;padding-left:0;padding-right:0}
+.btn-facebook{color:#fff;background-color:#3b5998;border-color:rgba(0,0,0,0.2)}.btn-facebook:hover,.btn-facebook:focus,.btn-facebook:active,.btn-facebook.active,.open .dropdown-toggle.btn-facebook{color:#fff;background-color:#30487b;border-color:rgba(0,0,0,0.2)}
+.btn-facebook:active,.btn-facebook.active,.open .dropdown-toggle.btn-facebook{background-image:none}
+.btn-facebook.disabled,.btn-facebook[disabled],fieldset[disabled] .btn-facebook,.btn-facebook.disabled:hover,.btn-facebook[disabled]:hover,fieldset[disabled] .btn-facebook:hover,.btn-facebook.disabled:focus,.btn-facebook[disabled]:focus,fieldset[disabled] .btn-facebook:focus,.btn-facebook.disabled:active,.btn-facebook[disabled]:active,fieldset[disabled] .btn-facebook:active,.btn-facebook.disabled.active,.btn-facebook[disabled].active,fieldset[disabled] .btn-facebook.active{background-color:#3b5998;border-color:rgba(0,0,0,0.2)}
+.btn-facebook .badge{color:#3b5998;background-color:#fff}
+.btn-google-plus{color:#fff;background-color:#dd4b39;border-color:rgba(0,0,0,0.2)}.btn-google-plus:hover,.btn-google-plus:focus,.btn-google-plus:active,.btn-google-plus.active,.open .dropdown-toggle.btn-google-plus{color:#fff;background-color:#ca3523;border-color:rgba(0,0,0,0.2)}
+.btn-google-plus:active,.btn-google-plus.active,.open .dropdown-toggle.btn-google-plus{background-image:none}
+.btn-google-plus.disabled,.btn-google-plus[disabled],fieldset[disabled] .btn-google-plus,.btn-google-plus.disabled:hover,.btn-google-plus[disabled]:hover,fieldset[disabled] .btn-google-plus:hover,.btn-google-plus.disabled:focus,.btn-google-plus[disabled]:focus,fieldset[disabled] .btn-google-plus:focus,.btn-google-plus.disabled:active,.btn-google-plus[disabled]:active,fieldset[disabled] .btn-google-plus:active,.btn-google-plus.disabled.active,.btn-google-plus[disabled].active,fieldset[disabled] .btn-google-plus.active{background-color:#dd4b39;border-color:rgba(0,0,0,0.2)}
+.btn-google-plus .badge{color:#dd4b39;background-color:#fff}
+/* End Social bootstrap button */
+
+.login-form .switcher {
+	position: relative;
+	min-width: 62px;
+	min-height: 480px;
+}
+
+.login-form .switcher .switch-line {
+    border-left: 1px solid #dddddd;
+    height: 450px;
+    left: 50%;
+    position: absolute;
+    width: 1px;
+    z-index: 0;
+}
+
+/* -------------------------------------------------------------------- */
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.header {
+		display: none;
+	}
+	.header-sm {
+		display: block;
+		min-height: 50px;
+	}
+	.col-xs-padding-bottom-40 {
+		padding-bottom: 40px;
+	}
+	#cot_tl_pop {
+		display: none;
+	}
+	#cot_tl_fixed {
+		display: none;
+	}
+}
+
+/* Landscape tablet */
+@media (min-width: 768px) {
+	.header {
+		display: block;
+	}
+	.header-sm {
+		display: none;
+	}
+	.header .banner .topcontact {
+		left: 350px !important;
+	}
+}
+
+/* Portrait desktop */
+@media (min-width: 992px) {
+	.header .banner .topcontact {
+		left: 350px !important;
+	}
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	.header .banner .topcontact {
+		left: 500px !important;
+	}
+}
+
+/* -------------------------------------------------------------------- */
